@@ -17,7 +17,9 @@ b build.go:9 # give misleading error but actually set yes can set the breakpoint
 funcs # `main.compile` defined in utils/build.go is detected in `funcs` command. But unable to set breakpoints
 ```
 
-<script src="https://asciinema.org/a/706784.js" id="asciicast-706784" async="true"></script>
+Video:
+
+[![asciicast](https://asciinema.org/a/706784.svg)](https://asciinema.org/a/706784)
 
 # vscode-go debug multiple process
 
