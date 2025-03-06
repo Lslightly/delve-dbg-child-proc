@@ -1,0 +1,8 @@
+b main.main
+b main.go:10
+target follow-exec -on
+r
+c
+c
+n 4
+locals
