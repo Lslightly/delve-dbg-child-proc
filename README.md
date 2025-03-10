@@ -21,6 +21,10 @@ Video:
 
 [![asciicast](https://asciinema.org/a/706784.svg)](https://asciinema.org/a/706784)
 
+## Solution
+
+[PR3937](https://github.com/go-delve/delve/pull/3937) and [branch fixbpsetfollow](https://github.com/aarzilli/delve/tree/fixbpsetfollow)
+
 # vscode-go debug multiple process
 
 TBD
