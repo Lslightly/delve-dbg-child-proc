@@ -2,7 +2,7 @@
     "go.delveConfig": {
         "debugAdapter": "legacy"
     },
-    "go.alternateTools": {
-        "dlv": "/home/lqw/mygit/delve/dlv"
-    }
+    // "go.alternateTools": {
+    //     "dlv": "/home/lqw/mygit/delve/dlv"
+    // }
 }
