@@ -14,7 +14,17 @@
             "args": [
                 "--init",
                 "delve-init.txt"
-            ]
+            ],
+            "console": "integratedTerminal",
+            "showLog": true,
+            "logDest": "log.txt"
+        },
+        {
+            "name": "attach to server",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "port": 2345
         }
     ]
 }

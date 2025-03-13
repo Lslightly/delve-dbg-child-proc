@@ -11,12 +11,13 @@
             "request": "attach",
             "mode": "remote",
             "port": 2345,
-            // "substitutePath": [
-            //     {
-            //         "from": "${workspaceFolder}",
-            //         "to": "/home/lqw/mygit/multi_process_dbg/utils"
-            //     }
-            // ]
+            "substitutePath": [
+                {
+                    "from": "${workspaceFolder}",
+                    "to": "${workspaceFolder}"
+                }
+            ],
+            "console": "internalConsole"
         }
     ]
 }

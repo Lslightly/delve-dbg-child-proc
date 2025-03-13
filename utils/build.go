@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 func compile() {
@@ -14,5 +13,4 @@ func main() {
 	b := 2 + a
 	_ = b
 	compile()
-	time.Sleep(5 * time.Second)
 }

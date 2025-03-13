@@ -1,0 +1,14 @@
+2025-03-12T23:28:22+08:00 info layer=debugger launching process with args: [/home/lqw/mygit/multi_process_dbg/__debug_bin1282471554 --init delve-init.txt]
+2025-03-12T23:28:22+08:00 debug layer=debugger Adding target 16187 "/home/lqw/mygit/multi_process_dbg/__debug_bin1282471554 --init delve-init.txt"
+2025-03-12T23:28:22+08:00 info layer=debugger created breakpoint: &api.Breakpoint{ID:2, Name:"sourceBp Path=\"/home/lqw/mygit/multi_process_dbg/main.go\"  Line=10 Column=0", Addr:0x4f5bda, Addrs:[]uint64{0x4f5bda}, AddrPid:[]int{16187}, File:"/home/lqw/mygit/multi_process_dbg/main.go", Line:10, FunctionName:"main.drive", ExprString:"", Cond:"", HitCond:"", HitCondPerG:false, Tracepoint:false, TraceReturn:false, Goroutine:false, Stacktrace:0, Variables:[]string(nil), LoadArgs:(*api.LoadConfig)(nil), LoadLocals:(*api.LoadConfig)(nil), WatchExpr:"", WatchType:0x0, VerboseDescr:[]string(nil), HitCount:map[string]uint64{}, TotalHitCount:0x0, Disabled:false, UserData:interface {}(nil), RootFuncName:"", TraceFollowCalls:0}
+2025-03-12T23:28:22+08:00 debug layer=debugger continuing
+2025-03-12T23:28:22+08:00 debug layer=debugger ContinueOnce
+2025-03-12T23:28:22+08:00 debug layer=debugger callInjection protocol on:
+2025-03-12T23:28:22+08:00 debug layer=debugger 	16200 PC=0x47bb43
+2025-03-12T23:28:22+08:00 debug layer=debugger 	16201 PC=0x47bb43
+2025-03-12T23:28:22+08:00 debug layer=debugger 	16202 PC=0x47bb43
+2025-03-12T23:28:22+08:00 debug layer=debugger 	16187 PC=0x4f5bda
+2025-03-12T23:28:22+08:00 debug layer=debugger 	16199 PC=0x47b577
+2025-03-12T23:28:23+08:00 debug layer=debugger continuing
+2025-03-12T23:28:23+08:00 debug layer=debugger ContinueOnce
+2025-03-12T23:28:23+08:00 debug layer=debugger detaching
